@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		88230FFA05D9926E00FE8D22 = {
+			children = (
+				DBE19BEB08A9856C008E13D6,
+				DB6897E908A7D8C7006C863F,
+				DB6897B808A7D638006C863F,
+				DB68969E08A6E9B9006C863F,
+				DB4BB2F808A402A300E4AD00,
+				DB4BB2C008A3FF9C00E4AD00,
+				DBD0E8C208A3185500E416A9,
+				DB4BB0D508A31A3600E4AD00,
+				DB4BB0D608A31A3600E4AD00,
+				DB4BB0D708A31A3600E4AD00,
+				DB4BB0D808A31A3600E4AD00,
+				DBD0E8BE08A317CA00E416A9,
+				DB4BB2A908A3F80100E4AD00,
+				DBD0E8B908A3178700E416A9,
+				DBD0E8B608A3173400E416A9,
+				DBD0E8B108A3170C00E416A9,
+				888251B805DAF9E10060550A,
+				886FEE5605D9BD280091015F,
+				886FEE5905D9BD280091015F,
+				886FEE5705D9BD280091015F,
+				88934D71061E157F00F42905,
+				DBD0E8AA08A3167300E416A9,
+			);
+			isa = PBXGroup;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		88230FFC05D9926E00FE8D22 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		88230FFD05D9926E00FE8D22 = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+		88230FFE05D9926E00FE8D22 = {
+			buildSettings = {
+			};
+			buildStyles = (
+				88230FFC05D9926E00FE8D22,
+				88230FFD05D9926E00FE8D22,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 88230FFA05D9926E00FE8D22;
+			projectDirPath = "";
+			targets = (
+				8823100505D9929B00FE8D22,
+			);
+		};
+		8823100505D9929B00FE8D22 = {
+			buildArgumentsString = "-emacs $(ACTION)";
+			buildPhases = (
+			);
+			buildSettings = {
+				PRODUCT_NAME = simpledb;
+			};
+			buildToolPath = /Developer/Java/Ant/bin/ant;
+			dependencies = (
+			);
+			isa = PBXLegacyTarget;
+			name = simpledb;
+			passBuildSettingsInEnvironment = 1;
+			productName = simpledb;
+		};
+		886FEE5605D9BD280091015F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.xml;
+			path = build.xml;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		886FEE5705D9BD280091015F = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = lib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		886FEE5905D9BD280091015F = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = src;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		888251B805DAF9E10060550A = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = Manifest;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		88934D71061E157F00F42905 = {
+			isa = PBXFileReference;
+			lastKnownFileType = folder;
+			path = dist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//880
+//881
+//882
+//883
+//884
+//DB0
+//DB1
+//DB2
+//DB3
+//DB4
+		DB4BB0D508A31A3600E4AD00 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = DbIterator.java;
+			path = src/simpledb/DbIterator.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB4BB0D608A31A3600E4AD00 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = HeapPage.java;
+			path = src/simpledb/storage/HeapPage.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB4BB0D708A31A3600E4AD00 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = TupleDesc.java;
+			path = src/simpledb/storage/TupleDesc.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB4BB0D808A31A3600E4AD00 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Type.java;
+			path = src/simpledb/common/Type.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB4BB2A908A3F80100E4AD00 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Field.java;
+			path = src/simpledb/storage/Field.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB4BB2C008A3FF9C00E4AD00 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = IntField.java;
+			path = src/simpledb/storage/IntField.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB4BB2F808A402A300E4AD00 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Catalog.java;
+			path = src/simpledb/common/Catalog.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB68969E08A6E9B9006C863F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = PageEncoder.java;
+			path = src/simpledb/PageEncoder.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB6897B808A7D638006C863F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = HeapFile.java;
+			path = src/simpledb/storage/HeapFile.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DB6897E908A7D8C7006C863F = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Page.java;
+			path = src/simpledb/storage/Page.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBD0E8AA08A3167300E416A9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = PageId.java;
+			path = src/simpledb/storage/PageId.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBD0E8B108A3170C00E416A9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = LockManager.java;
+			path = src/simpledb/LockManager.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBD0E8B608A3173400E416A9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = TransactionId.java;
+			path = src/simpledb/transaction/TransactionId.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBD0E8B908A3178700E416A9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Permissions.java;
+			path = src/simpledb/common/Permissions.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBD0E8BE08A317CA00E416A9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = Tuple.java;
+			path = src/simpledb/storage/Tuple.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBD0E8C208A3185500E416A9 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = DbException.java;
+			path = src/simpledb/common/DbException.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		DBE19BEB08A9856C008E13D6 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.java;
+			name = DbFile.java;
+			path = src/simpledb/storage/DbFile.java;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+	};
+	rootObject = 88230FFE05D9926E00FE8D22;
+}
